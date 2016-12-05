@@ -3,7 +3,7 @@
  * Forces assertions to be enabled regardless of -ea VM flag, and runs the tests
  * in Tests
  *
- * @author http://stackoverflow.com/a/5558769/2534036
+ * @author http://stackoverflow.com/a/5558769/2534036 (http://stackoverflow.com/users/273200/bala-r)
  * @author Skylar Ittner
  */
 public class TestHashMap {

@@ -1,6 +1,6 @@
 package coffee.util;
 
-public interface ExtraCreditMap {
+public interface Map {
 
     /**
      * Return number of elements in map.
@@ -14,8 +14,9 @@ public interface ExtraCreditMap {
      *
      * @param key the key in the map
      * @param value the value associated to the key
+     * @throws coffee.util.MapIsFullException when the map is full
      */
-    void putEntry(String key, String value);
+    void putEntry(String key, String value) throws MapIsFullException;
 
     /**
      * Fetches value associated with key.

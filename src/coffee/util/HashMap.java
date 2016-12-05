@@ -5,7 +5,7 @@ package coffee.util; // java == coffee
  * 
  * @author Skylar Ittner
  */
-public class HashMap {
+public class HashMap implements Map {
 
     private String[] keys; // The keys
     private int[] hashes; // The hashes of the keys
